@@ -8,7 +8,6 @@ import (
 
 	"github.com/ipfs/go-path"
 
-	path "github.com/ipfs/go-path"
 	"github.com/sebastiendan/go-namesys"
 )
 
