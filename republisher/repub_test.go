@@ -14,7 +14,7 @@ import (
 	host "github.com/libp2p/go-libp2p-core/host"
 	peer "github.com/libp2p/go-libp2p-core/peer"
 	routing "github.com/libp2p/go-libp2p-core/routing"
-	dht "github.com/libp2p/go-libp2p-kad-dht"
+	dht "github.com/sebastiendan/go-libp2p-kad-dht"
 
 	ds "github.com/ipfs/go-datastore"
 	dssync "github.com/ipfs/go-datastore/sync"
@@ -23,8 +23,8 @@ import (
 	path "github.com/ipfs/go-path"
 
 	keystore "github.com/ipfs/go-ipfs-keystore"
-	namesys "github.com/ipfs/go-namesys"
-	. "github.com/ipfs/go-namesys/republisher"
+	namesys "github.com/sebastiendan/go-namesys"
+	. "github.com/sebastiendan/go-namesys/republisher"
 )
 
 type mockNode struct {

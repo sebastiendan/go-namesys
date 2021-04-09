@@ -8,7 +8,7 @@ import (
 	"time"
 
 	keystore "github.com/ipfs/go-ipfs-keystore"
-	namesys "github.com/ipfs/go-namesys"
+	namesys "github.com/sebastiendan/go-namesys"
 	path "github.com/ipfs/go-path"
 
 	proto "github.com/gogo/protobuf/proto"

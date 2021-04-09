@@ -1,4 +1,4 @@
-module github.com/ipfs/go-namesys
+module github.com/sebastiendan/go-namesys
 
 require (
 	github.com/bren2010/proquint v0.0.0-20160323162903-38337c27106d
@@ -17,12 +17,12 @@ require (
 	github.com/jbenet/goprocess v0.1.4
 	github.com/libp2p/go-libp2p v0.13.0
 	github.com/libp2p/go-libp2p-core v0.8.0
-	github.com/libp2p/go-libp2p-kad-dht v0.11.1
 	github.com/libp2p/go-libp2p-peerstore v0.2.6
 	github.com/libp2p/go-libp2p-record v0.1.3
 	github.com/libp2p/go-libp2p-testing v0.4.0
 	github.com/multiformats/go-multiaddr v0.3.1
 	github.com/multiformats/go-multihash v0.0.14
+	github.com/sebastiendan/go-libp2p-kad-dht v0.11.3
 	github.com/whyrusleeping/base32 v0.0.0-20170828182744-c30ac30633cc
 )
 
